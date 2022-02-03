@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Pit-a-Pottle</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+        <style>
+            body{
+                overflow-x: hidden;
+            }
+            .navbar{
+                height: 70px;
+                z-index:1;
+                background-color: #ffffff;
+                border-radius: 0;
+                border-bottom: 2px solid #3F826D;
+            }
+            #headerLogo{
+                width: 250px;
+                margin-top: -7px;
+                margin-left: 10%;
+            }
+            .navbar-right{
+                margin-top: -1px;
+                margin-right: 10%;
+            }
+            .navbar li a{
+                color: #3F826D;
+                font-size: 25px;
+                font-family: 'Poppins', sans-serif;
+                font-weight: 500;
+                padding: 24px;
+            }
+            .container-fluid{
+                overflow: hidden;
+                margin-top: 70px;
+                padding:0px;
+            }
+            img{
+                position: absolute;
+                z-index: -1;
+            }
+            .welcSect{
+                float: right;
+                margin-top: 240px;
+                margin-right: 10%;
+                font-family: 'Poppins', sans-serif;
+                font-weight: 800;
+            } 
+            #welc{
+                margin-left: 100px;
+                font-family: 'Poppins', sans-serif;
+                font-size: 90px;
+    
+                color: white;
+            }
+            #name{
+                margin-left: 100px;
+                font-family: 'Poppins', sans-serif;
+                font-size: 85px;
+                line-height: 40px;
+                color: #194174;
+            }
+            h4{
+                font-size: 25px;
+                line-height: 100px;
+                color: white;
+                text-align: center;
+            }
+        </style>
+    </head>
+
+    <body>
+        <nav class="navbar navbar-fixed-top">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="./index.html"><img id="headerLogo" src="./Assets/headLogo.png"></a>
+            </div>
+            <ul class= "nav navbar-nav navbar-right">
+                <li><a href="#">About</a></li>
+                <li><a href="#">Info</a></li>
+                <li><a href="#">Gallery</a></li>
+                <li><a href="#">Join Us</a></li>
+            </ul>
+        </nav>
+        <div class="container-fluid">
+            <img class="img-responsive" src="./Assets/BG-01.png">
+
+            <div class=welcSect>
+                <span id="welc">WELCOME TO </span><br>
+                <span id="name">PIT-A-POTTLE</span>
+                <h4>Where we turn your bottles to pose a whole new purpose</h4>
+            </div>
+        </div>
+    </body>
+</html>
